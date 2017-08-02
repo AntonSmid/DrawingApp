@@ -58,12 +58,18 @@ body {
 
 #container {
     /* width: 933px; // 500px / */
-    width: 80%;
+    width: 800px;
     /* height: 600px; // 400px / */
     height: 600px;
     margin: 0 auto 10px auto;
     border: 1px solid rgba(122, 174, 229, 0.5);
-    
+}
+
+#paint {
+    // width: 800px;
+    // height: 600px;
+    background: #fff;
+    cursor: crosshair;
 }
 
 /* container with buttons */
@@ -91,6 +97,7 @@ body {
     position: relative;
     border-bottom: 3px solid rgba(122, 174, 229, 0.5);
     //box-shadow: 0px 4px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
 }
 
 .button:hover {
