@@ -110,3 +110,8 @@ body {
     border-top: 3px solid rgba(122, 174, 229, 0.5);
     border-bottom: 0;
 }
+
+.eraseMode {
+  background-color: red;
+  color: white;
+} 
